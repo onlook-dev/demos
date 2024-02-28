@@ -31,7 +31,17 @@
       <strong class="hidden" aria-hidden="true"
         >{Math.floor($displayed_count + 1)}</strong
       >
-      <strong>{Math.floor($displayed_count)}</strong>
+      <strong class="{
+  "path": "src/routes/Counter.svelte",
+  "selector": "strong:nth-child(2)",
+  "changes": [
+    "color: #000000"
+  ],
+  "startLine": "34",
+  "endLine": "34",
+  "currentValue": "",
+  "newValue": "text-black"
+}">{Math.floor($displayed_count)}</strong>
     </div>
   </div>
 
