@@ -31,7 +31,7 @@
       <strong class="hidden" aria-hidden="true"
         >{Math.floor($displayed_count + 1)}</strong
       >
-      <strong>{Math.floor($displayed_count)}</strong>
+      <strong class="[object Object]">{Math.floor($displayed_count)}</strong>
     </div>
   </div>
 
