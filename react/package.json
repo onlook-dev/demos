@@ -12,6 +12,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "dev": "rm -rf node_modules/.cache && npm run start",
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
@@ -37,7 +38,6 @@
   },
   "devDependencies": {
     "customize-cra": "^1.0.0",
-    "react-app-rewired": "^2.2.1",
-    "@onlook/babel-plugin-react": "^1.1.0"
+    "react-app-rewired": "^2.2.1"
   }
 }
